@@ -1,0 +1,252 @@
+<!--BANNER CAROUSEL------------------------------------------------------------------------->
+<section class="carousel">
+    <div class="fundo_carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/banner1.png" class="d-block w-100 " alt="destaque da logomarca">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/banner2.png" class="d-block w-100 " alt="jovens jogando jogos em computadores">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/banner3.png" class="d-block w-100 " alt="controles remotos">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!--DESTAQUES PRODUTOS---------------------------------------------------------------------->
+<section class="secao-destaques">
+    <div class="container">
+        <h2>DESTAQUES</h2>
+        <div class="bloco-produto">
+                <owl-carousel-o [options]="customOptions" class="content-produto">
+
+                    <ng-template carouselSlide >
+                        <div class="produto">
+                            <a href="" class="link-produto"><div class="cardproduto">
+                                <img class="img_produto" src="./assets/img/produto1.jpg" alt="fone de ouvido">
+                                <h3>Fone de ouvido versão gamer</h3>
+                                <h4>R$ 165,99</h4>
+                                <p>De: <s>R$ 189,99</s></p>
+                            </div></a>
+                            <a href="#" role="button"><div  class="botao btn-destaques">+ Comprar</div></a>
+                        </div>
+                    </ng-template>  
+
+                    <ng-template carouselSlide>
+                        <div class="produto">
+                            <a href="" class="link-produto"><div class="cardproduto">
+                                <img class="img_produto" src="./assets/img/produto9.jpg" alt="console xbox">
+                                <h3>Console Xbox Series X</h3>
+                                <h4>R$ 4.999,00</h4>
+                                <p>De: <s>R$ 5.225,00</s></p>
+                            </div></a>
+                            <a href="#" role="button"><div  class="botao btn-destaques">+ Comprar</div></a>
+                        </div>
+                    </ng-template>  
+
+                    <ng-template carouselSlide>
+                        <div class="produto">
+                            <a href="" class="link-produto"><div class="cardproduto">
+                                <img class="img_produto" src="./assets/img/produto5.jpg" alt="game Horizon Forbidden West">
+                                <h3>Game Horizon Forbidden West</h3>
+                                <h4>R$ 206,79</h4>
+                                <p>De: <s>R$ 234,99</s></p>
+                            </div></a>
+                            <a href="#" role="button"><div  class="botao btn-destaques">+ Comprar</div></a>
+                        </div>
+                    </ng-template>  
+
+                    <ng-template carouselSlide>
+                        <div class="produto">
+                            <a href="" class="link-produto"><div class="cardproduto">
+                                <img class="img_produto" src="./assets/img/produto3.jpg" alt="cadeira gamer">
+                                <h3>Cadeira Gamer Craft</h3>
+                                <h4>R$ 889,99</h4>
+                                <p>De: <s>R$ 1699,99</s></p>
+                            </div></a>
+                            <a href="#" role="button"><div  class="botao btn-destaques">+ Comprar</div></a>
+                        </div>
+                    </ng-template>  
+
+                    <ng-template carouselSlide>
+                        <div class="produto">
+                            <a href="" class="link-produto"><div class="cardproduto">
+                                <img class="img_produto" src="./assets/img/produto6.jpg" alt="game the sims 4">
+                                <h3>Game The Sims 4 - PC</h3>
+                                <h4>R$ 82,34</h4>
+                                <p>De: <s>R$99,90</s></p>
+                            </div></a>
+                            <a href="#" role="button"><div  class="botao btn-destaques">+ Comprar</div></a>
+                        </div>
+                    </ng-template>
+                </owl-carousel-o>
+        </div>
+    </div>
+</section>
+
+<!--NOVIDADES PRODUTOS---------------------------------------------------------------------->
+<section class="secao-novidades">
+
+    <div class="container">
+        <h2>NOVIDADES</h2>
+        <div class="bloco-produto">
+            <owl-carousel-o [options]="customOptions" class="content-produto">
+
+                <ng-template carouselSlide >
+                    <div class="produto">
+                        <a href="" class="link-produto"><div class="cardproduto">
+                            <img class="img_produto" src="./assets/img/produto8.jpg" alt="console PlayStation">
+                            <h3>Console PlayStation 5</h3>
+                            <h4>R$ 4.499,00</h4>
+                            <p></p>
+                        </div></a>
+                        <a href="#" role="button"><div  class="botao btn-novidades">+ Adicionar ao Carrinho</div></a>
+                    </div>
+                </ng-template>  
+
+                <ng-template carouselSlide>
+                    <div class="produto">
+                        <a href="" class="link-produto"><div class="cardproduto">
+                            <img class="img_produto" src="./assets/img/produto9.jpg" alt="console xbox">
+                            <h3>Console Xbox Series X</h3>
+                            <h4>R$ 4.999,00</h4>
+                            <p>De: <s>R$ 5.225,00</s></p>
+                        </div></a>
+                        <a href="#" role="button"><div  class="botao btn-novidades">+ Adicionar ao Carrinho</div></a>
+                    </div>
+                </ng-template>  
+
+                <ng-template carouselSlide>
+                    <div class="produto">
+                        <a href="" class="link-produto"><div class="cardproduto">
+                            <img class="img_produto" src="./assets/img/produto5.jpg" alt="game Horizon Forbidden West">
+                            <h3>Game Horizon Forbidden West</h3>
+                            <h4>R$ 206,79</h4>
+                            <p>De: <s>R$ 234,99</s></p>
+                        </div></a>
+                        <a href="#" role="button"><div  class="botao btn-novidades">+ Adicionar ao Carrinho</div></a>
+                    </div>
+                </ng-template>  
+
+                <ng-template carouselSlide>
+                    <div class="produto">
+                        <a href="" class="link-produto"><div class="cardproduto">
+                            <img class="img_produto" src="./assets/img/produto7.jpg" alt="game the Last of us part 2">
+                            <h3>Game The Last Of Us Part II</h3>
+                            <h4>R$ 129,90</h4>
+                            <p></p>
+                        </div></a>
+                        <a href="#" role="button"><div  class="botao btn-novidades">+ Adicionar ao Carrinho</div></a>
+                    </div>
+                </ng-template>  
+
+                <ng-template carouselSlide>
+                    <div class="produto">
+                        <a href="" class="link-produto"><div class="cardproduto">
+                            <img class="img_produto" src="./assets/img/produto2.jpg" alt="mouse gamer">
+                            <h3>Mouse Gamer Redragon Cobra</h3>
+                            <h4>R$ 114,90</h4>
+                            <p></p>
+                        </div></a>
+                        <a href="#" role="button"><div  class="botao btn-novidades">+ Adicionar ao Carrinho</div></a>
+                    </div>
+                </ng-template>
+
+            </owl-carousel-o>
+        </div>
+    </div>
+</section>
+
+<!--GALERIA PRODUTOS------------------------------------------------------------------------>       
+<section class="secao-galeria">
+    <div class="container">
+       <h2>GALERIA DE PRODUTOS</h2>
+      <div class="bloco-galeria">
+        <div id="espaco-galeria" class="content-galeria">
+
+            <div class="cardgaleria" id="teclado_mecanico">
+                <img class="img_galeria" src="./assets/img/produto0.jpg" alt="teclado mecanico">
+                <h3>Teclado Mecânico Gamer Redragon</h3>
+                <h4>R$ 323,65</h4>
+                <p></p>
+            </div >
+            
+            <div class="cardgaleria" id="fone_ouvido">
+                <img src="./assets/img/produto1.jpg" class="img_galeria" alt="fone de ouvido"> 
+                <h3>Fone de ouvido versão gamer</h3>
+                <h4>R$ 165,99</h4>
+                <p>De: <s>R$ 189,99</s></p> 
+            </div >
+
+            <div class="cardgaleria" id="mouse_gamer">
+                <img class="img_galeria" src="./assets/img/produto2.jpg" alt="mouse gamer">
+                <h3>Mouse Gamer Redragon Cobra</h3>
+                <h4>R$ 114,90</h4>
+                <p></p>
+            </div >
+
+            <div class="cardgaleria" id="cadeira_gamer">
+                <img class="img_galeria" src="./assets/img/produto3.jpg" alt="cadeira gamer">
+                <h3>Cadeira Gamer Craft</h3>
+                <h4>R$ 889,99</h4>
+                <p>De: <s>R$ 1699,99</s></p>
+            </div >
+
+            <div class="cardgaleria" id="tomb_raider">
+                <img class="img_galeria" src="./assets/img/produto4.jpg" alt="game rise of the tomb raider">
+                <h3>Game  Rise of The Tomb Raider</h3>
+                <h4>R$ 94,89</h4>
+                <p></p>
+            </div >
+
+            <div class="cardgaleria" id="horizon_forbidden">
+                <img class="img_galeria" src="./assets/img/produto5.jpg" alt="game Horizon Forbidden West">
+                <h3>Game Horizon Forbidden West</h3>
+                <h4>R$ 206,79</h4>
+                <p>De: <s>R$ 234,99</s></p>
+            </div >
+
+            <div class="cardgaleria" id="the_sims">
+                <img class="img_galeria" src="./assets/img/produto6.jpg" alt="game the sims 4">
+                <h3>Game The Sims 4 - PC</h3>
+                <h4>R$ 82,34</h4>
+                <p>De: <s>R$99,90</s></p>
+            </div >
+
+            <div class="cardgaleria" id="last_of_us">
+                <img class="img_galeria" src="./assets/img/produto7.jpg" alt="game the Last of us part 2">
+                <h3>Game The Last Of Us Part II</h3>
+                <h4>R$ 129,90</h4>
+                <p></p>
+            </div >
+
+            <div class="cardgaleria" id="playstation">
+                <img class="img_galeria"  src="./assets/img/produto8.jpg" alt="console PlayStation">
+                <h3>Console PlayStation 5</h3>
+                <h4>R$ 4.499,00</h4>
+                <p></p>
+            </div >
+
+            <div class="cardgaleria" id="xbox">
+                <img class="img_galeria" src="./assets/img/produto9.jpg" alt="console xbox">
+                <h3>Console Xbox Series X</h3>
+                <h4>R$ 4.999,00</h4>
+                <p>De: <s>R$ 5.225,00</s></p>
+            </div >
+
+        </div>
+      </div>
+    </div>
+</section>

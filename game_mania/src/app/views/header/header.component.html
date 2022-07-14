@@ -1,0 +1,62 @@
+<header>
+<!--menu-->
+<div class="container-grid barra_menu_cima">
+  <a href="" class="logo">
+      <img class="logo_marca" src="./assets/img/logo.svg" alt="logomarca do Game Mania">
+      <img class="logo_tipo" id="logo_tipo_um" src="./assets/img/logotipo.png" alt="logotipo do Game Mania" />
+      <img class="logo_tipo" id="logo_tipo_dois" src="./assets/img/logotipoDois.png" alt="logotipo do Game Mania" />
+  </a>
+  <!--campo de busca-->
+  <div class="busca_produto_um">  
+      <form>
+              <input type="text" name="busca" class="campo_busca" placeholder="Busque aqui o produto"> 
+              <a role="button" onclick="busca()" ><img class="lupa_busca" src="./assets/img/busca.svg" alt="busca" /></a>
+      </form>
+  </div>
+  
+  <div class="carrinho_user">
+      <a href="#" class="carrinho_compras">
+          <img src="./assets/img/carrinho2.png" alt="carrinho de compras" />
+      </a>
+          
+      <a routerLink="login" class="usuario">
+          <img src="./assets/img/user.svg" alt="login"  />
+      </a>
+      <!--esse menu fica oculto no desktop-->
+      <nav class="nav_hamburger_menu">
+          <a id="hamburger_menu" onclick="menu()">
+              <img class="hamburger_menu" src="./assets/img/hamburger-menu.svg" alt="menu">
+          </a>
+      </nav>
+  </div>
+ 
+</div>
+<nav id="menu" class="container-grid menu"><!--barra de navegação(menu) F6F6F6-->
+  <a href="">Home</a>
+  <a href="#">Contato</a>
+  <a href="#">Consoles</a>
+  <div class="dropdown-container">
+      <a id= "acessorios" href="#" class="dropdown-menu-toggle">Acessórios</a>
+      <div id="menu_acessorios" class="dropdown-items menu_acessorios_desativado" >
+          <ul class="dropdown-menu">
+              <li><a id="fone" href="#">Fones de ouvido</a></li>
+              <li><a id="teclado" href="#">Teclados</a></li>
+              <li><a id="mouse" href="#">Mouses</a></li>
+              <li><a id="mouse_pad" href="#">Mouses Pad</a></li>
+          </ul>
+      </div>
+  </div>
+  <a href="#">Jogos</a>
+  <!--menu responsivo-->
+  <a class="carrinho_menu" href="">Carrinho</a>
+  <a routerLink="login" class="usuario_menu" href="">Login</a>
+</nav>
+<!--busca responsivo-->
+<div class="container-grid busca_produto_dois" >  
+  <form>
+          <input type="text" name="busca" class="campo_busca" placeholder="Busque aqui o produto"> 
+          <a onclick="busca()"><img class="lupa_busca" src="./assets/img/busca.svg" alt="busca" /></a>
+  </form>
+</div>
+
+</header>

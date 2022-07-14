@@ -1,0 +1,57 @@
+.login{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    align-items: center;
+    justify-content:center;
+    background-color: #cccccc;
+}
+.formulario{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: #050f3b;
+    opacity: 100%;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32;
+    font-family:'Roboto', sans-serif; 
+}
+
+.itens_form{
+    margin: 5%;
+    justify-content:center;
+    align-items: center;
+}
+
+.itens_form label{
+    font-size: 40;
+    font-style: bold;
+    color: white;
+    margin: 0px 15px 0px 0px;
+}
+
+.formulario h2{
+    margin: 5%;
+    font-size: 62;
+    font-family:'Odibee Sans', sans-serif; 
+    color:#e2e2e2;
+}
+
+/*botao*/
+section {
+    display: block;
+    color: black;
+    font-style: bold;
+  }
+
+  .example-button-row {
+    display: table-cell;
+  }
+
+  .example-button-row .mat-button-base {
+    margin: 0% 0%;
+  }
+    

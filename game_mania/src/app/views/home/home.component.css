@@ -1,0 +1,250 @@
+/*BANNER CAROUSEL ------------------------------------ --------------------*/
+.fundo_carousel{
+    width: 100%;
+    height: 50%;
+    padding: 6%;
+    background: conic-gradient(from 137.94deg at 50% 50%, rgba(2, 6, 38, 0.864583) -170.62deg, #020414 18.75deg, rgba(2, 6, 38, 0.864583) 189.38deg, #020414 378.75deg);
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*DESTAQUES-----------------------------------------------------------------*/
+.secao-destaques {
+    background-color: #E5E5E5;
+    padding: 3% 5%;
+    font-family: 'Odibee Sans', sans-serif; 
+    width: 100%;
+}
+.secao-destaques .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secao-destaques h2 {
+    color: #C00000;
+    font-size: 30px;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+    font-style: bold;
+}
+
+.btn-destaques{
+    background-color: #C00000;
+}
+
+/*NOVIDADES-----------------------------------------------------------------*/
+.secao-novidades {
+    background-color: #E5E5E5;
+    padding: 3% 5%;
+    font-family: 'Odibee Sans', sans-serif; 
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.secao-novidades .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secao-novidades h2 {
+    color: #008000;
+    font-size: 30px;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+    font-style: bold;
+}
+
+.bloco-produto {
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+   display: flex;
+   margin: 0% 5%;
+}
+
+.content-produto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 2.2% 3% 2.2%;
+}
+
+.cardproduto {
+    width: 220px;
+    height: 335px;
+    color: #fff;
+    background: var(--gradient);
+    box-shadow:  1px 1px 4px black;
+    background: #2D2A2A;
+    border-radius: 4px;
+    margin-bottom: 6%;
+}
+
+.img_produto{
+    width: 86%;
+    margin: 7%, 0%;
+    padding: 5%;
+    height: 190px;
+    object-fit:contain;
+    background-color: white; 
+    border-radius: 2px;
+}
+
+  .cardproduto h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    font-size: 23px;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+    
+    text-transform: capitalize;
+  }
+
+  .cardproduto h4 {
+    padding-left: 20px;
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+
+  }
+  
+  .cardproduto p {
+    padding-right: 20px;
+    float: right;
+    margin-bottom: 7%;
+    font-size: 15px;
+    color: #625E5E;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+  }
+
+  .botao{
+    height: 43px;
+    width: 220px;
+    box-shadow:  1px 1px 4px black;
+    border-radius: 4px;
+    padding: 5%;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    color: #FFF;
+    
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+  }
+
+  .btn-novidades{
+    background: #109A16;
+  }
+
+  .content-produto a{
+    text-transform: uppercase; 
+    text-decoration: none;
+    font-family: 'Odibee Sans', sans-serif; 
+  }
+   
+/*GALERIA PRODUTOS ---------------------------------------------------------*/
+
+.secao-galeria {
+    background-color: #E5E5E5;
+    padding: 30px 0;
+    font-family: 'Odibee Sans', sans-serif; 
+}
+  
+.secao-galeria .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.secao-galeria h2 {
+    color: #00008B;
+    font-size: 30px;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+}
+
+.bloco-galeria {
+    width: 100%;
+    height: 90%;
+  }
+  
+.content-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .cardgaleria {
+    width: 220px;
+    height: 370px;
+    color: #fff;
+    margin: 3% 2% 3% 2%;
+    background: var(--gradient);
+    box-shadow:  0px 0px 6px black;
+    background: #2D2A2A;
+    border-radius: 4px;
+  }
+
+  .img_galeria{
+      width: 86%;
+      margin: 7%;
+      height: 190px;
+      object-fit:contain;
+      background-color: white; 
+      border-radius: 2px;
+      padding: 5%;
+  }
+  
+  .cardgaleria h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+  }
+
+  .cardgaleria h4 {
+    padding-left: 20px;
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+  }
+  
+  .cardgaleria p {
+    padding-right: 20px;
+    float: right;
+    margin-bottom: 7%;
+    font-size: 15px;
+    color: #625E5E;
+    font-family: 'Odibee Sans', Roboto, sans-serif;
+  }
+
+
+
+  
+/*responsivo*----------------------------*/
+@media screen and (max-width: 428px) {
+    /*BANNER CAROUSEL---------------------------------- --------------------*/
+    .fundo_carousel{
+        top:90px;
+        padding: 0%;
+    }
+}
