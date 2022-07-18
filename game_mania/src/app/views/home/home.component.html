@@ -170,7 +170,7 @@
 </section>
 
 <!--GALERIA PRODUTOS------------------------------------------------------------------------>       
-<section class="secao-galeria">
+<!--<section class="secao-galeria">
     <div class="container">
        <h2>GALERIA DE PRODUTOS</h2>
       <div class="bloco-galeria">
@@ -246,6 +246,25 @@
                 <p>De: <s>R$ 5.225,00</s></p>
             </div >
 
+        </div>
+      </div>
+    </div>
+</section>-->
+
+<!--GALERIA PRODUTOS(NOTÍCIAS MÓDULO AUTOMATIZADO DB.JSON)------------------------------------------------------------------------>       
+<section class="secao-galeria">
+    <div class="container">
+       <h2>GALERIA DE PRODUTOS</h2>
+      <div class="bloco-galeria">
+        <div id="espaco-galeria" class="content-galeria">
+
+            <div *ngFor="let noticia of listaNoticias" class="cardgaleria" >
+                <img class="img_galeria" [src]=noticia.imagem alt="imagem produto">
+                <h3>{{noticia.titulo}}</h3>
+                <h4>{{noticia.descricao}}</h4>
+                <p></p>
+            </div >
+    
         </div>
       </div>
     </div>

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { Noticia } from 'src/app/models/noticia';
+import { NoticiasService } from 'src/app/services/noticias.service';
 
 @Component({
   selector: 'app-home',
@@ -8,11 +10,20 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private noticiaService: NoticiasService) { }
+
+  listaNoticias = [] as Noticia[]
 
   ngOnInit(): void {
+    this.carregarNoticias()
   }
 
+  carregarNoticias(){
+    this.noticiaService.getNoticias().subscribe((noticiasRecebidas: Noticia[])=>{
+      this.listaNoticias = noticiasRecebidas;
+      console.log(this.listaNoticias);
+    })
+  }
  
   customOptions: OwlOptions = {
     loop: false,

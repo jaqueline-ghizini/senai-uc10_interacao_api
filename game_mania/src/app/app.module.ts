@@ -13,6 +13,8 @@ import { LoginComponent } from './views/login/login.component';
 import { FormsModule } from '@angular/forms';/*formulario*/
 import {MatButtonModule} from '@angular/material/button';/*botao formulario*/
 
+import {HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,8 @@ import {MatButtonModule} from '@angular/material/button';/*botao formulario*/
     BrowserAnimationsModule,
     CarouselModule, /*carousel*/
     FormsModule, /*formulario */
-    MatButtonModule /*botao formulario*/
+    MatButtonModule, /*botao formulario*/
+    HttpClientModule /*para fazer requisicoes pelo angular e nao pelo postman*/
   ],
   providers: [],
   bootstrap: [AppComponent]

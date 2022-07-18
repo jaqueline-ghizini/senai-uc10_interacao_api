@@ -1,0 +1,83 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+
+  "noticias": [
+    {
+      "id": 0,
+      "imagem": "./assets/img/produto0.jpg",
+      "titulo": "Teclado Mecânico Gamer Redragon",
+      "descricao": "R$ 323,65"
+    },
+    {
+      "id": 1,
+      "imagem": "./assets/img/produto1.jpg",
+      "titulo": "Fone de ouvido versão gamer",
+      "descricao": "R$ 165,99"
+    },
+    {
+      "id": 2,
+      "imagem": "./assets/img/produto2.jpg",
+      "titulo": "Mouse Gamer Redragon Cobra",
+      "descricao": "R$ 114,90"
+    },
+    {
+      "id": 3,
+      "imagem": "./assets/img/produto3.jpg",
+      "titulo": "Cadeira Gamer Craft",
+      "descricao": "R$ 889,99"
+    },
+    {
+      "id": 4,
+      "imagem": "./assets/img/produto4.jpg",
+      "titulo": "Game  Rise of The Tomb Raider",
+      "descricao": "R$ 94,89"
+    },
+    {
+      "id": 5,
+      "imagem": "./assets/img/produto5.jpg",
+      "titulo": "Game Horizon Forbidden West",
+      "descricao": "R$ 206,79"
+    },
+    {
+      "id": 6,
+      "imagem": "./assets/img/produto6.jpg",
+      "titulo": "Game The Sims 4 - PC",
+      "descricao": "R$ 82,34"
+    },
+    {
+      "id": 7,
+      "imagem": "./assets/img/produto7.jpg",
+      "titulo": "Game The Last Of Us Part II",
+      "descricao": "R$ 129,90"
+    },
+    {
+      "id": 8,
+      "imagem": "./assets/img/produto8.jpg",
+      "titulo": "Console PlayStation 5",
+      "descricao": "R$ 4.499,00"
+    },
+    {
+      "id": 9,
+      "imagem": "./assets/img/produto9.jpg",
+      "titulo": "Console Xbox Series X",
+      "descricao": "R$ 4.999,00"
+    }
+  ]
+}
