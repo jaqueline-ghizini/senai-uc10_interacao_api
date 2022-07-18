@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 import { User } from 'src/app/models/user';
+import { LoginService } from 'src/app/services/login.service';
 
 @Component({
   selector: 'app-login',
@@ -9,21 +11,27 @@ import { User } from 'src/app/models/user';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private loginService: LoginService, private router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
   }
 
-  onSubmit(form: NgForm){
-    let dados = `
-    Nome: ${form.value.nome}
-    Email: ${form.value.email}
-    Senha: ${form.value.password}`;
+  loginModel = new User();
+  mensagem = ""
 
-    console.log(dados);
-    /*ou*/
-    console.log(this.userModel)
+  onSubmit(){
+    console.log(this.loginModel)
+
+    this.loginService.login(this.loginModel).subscribe((response) =>{
+      console.log(response),
+      this.mensagem = "Sucesso!"
+      this.router.navigateByUrl('')
+    }, 
+      (respostaErro) =>{
+        this.mensagem = "Erro ao efetuar login! "+respostaErro.error
+        console.log(this.mensagem)
+      }
+    )
   }
 
-  userModel = new User("","","")
 }

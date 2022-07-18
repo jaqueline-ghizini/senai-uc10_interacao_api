@@ -30,7 +30,7 @@ import {HttpClientModule} from '@angular/common/http';
     CarouselModule, /*carousel*/
     FormsModule, /*formulario */
     MatButtonModule, /*botao formulario*/
-    HttpClientModule /*para fazer requisicoes pelo angular e nao pelo postman*/
+    HttpClientModule /*para fazer requisicoes pelo angular e nao pelo postman */
   ],
   providers: [],
   bootstrap: [AppComponent]

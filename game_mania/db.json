@@ -16,8 +16,20 @@
   "profile": {
     "name": "typicode"
   },
-
-
+  "users": [
+    {
+      "email": "algumDois@gmail.com",
+      "password": "$2a$10$ddN7qgIjZAQWHwcVhRd.5OiH0AkNqyjPJf3UyHb48qZ6tb9mE/FSy",
+      "nome": "Thiago",
+      "id": 1
+    },
+    {
+      "email": "algum@gmail.com",
+      "password": "$2a$10$/CJ/ZehD7AZ2oun9t.2f4.hI/ev9AXEdfSKAs.gEWX8EV8Yq/Tzbi",
+      "nome": "Lara",
+      "id": 2
+    }
+  ],
   "noticias": [
     {
       "id": 0,
