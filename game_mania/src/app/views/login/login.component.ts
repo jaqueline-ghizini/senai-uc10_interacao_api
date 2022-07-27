@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
     this.loginService.login(this.loginModel).subscribe((response) =>{
       console.log(response),
       this.mensagem = "Sucesso!"
-      this.router.navigateByUrl('')
+      /*this.router.navigateByUrl('')*/
     }, 
       (respostaErro) =>{
         this.mensagem = "Erro ao efetuar login! "+respostaErro.error
