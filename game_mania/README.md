@@ -1,6 +1,6 @@
 # GameMania
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+Projeto Front-end de um site para e-commerce de uma loja de games e produtos de informática, realizado com o [Angular CLI](https://github.com/angular/angular-cli).
 
 ## Development server
 
